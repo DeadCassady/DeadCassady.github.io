@@ -1,0 +1,38 @@
+body {
+  background-color:hsl(0, 1%, 71%)
+}
+h1 {
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 3px  #4CAF50, 0 0 5px #028a02;
+    font-family: "Jost", sans-serif;
+    font-size: 400%;
+    text-align: center;
+  }
+  p {
+    color:rgb(35, 87, 30);
+    font-family: "Jost", sans-serif;
+    font-size: 110%;  
+    padding: 20px;
+  }
+
+  div {
+    background-color:hsl(0, 0%, 0%);
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    outline-style:inset;
+    margin: auto;
+
+  }
+  img{
+    float: right;
+    border-radius: 15%;
+
+  }
+  a{
+    color:rgb(35, 87, 30);
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
